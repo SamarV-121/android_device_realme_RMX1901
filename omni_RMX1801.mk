@@ -22,12 +22,6 @@ $(call inherit-product, vendor/omni/config/common.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := RMX1801
 PRODUCT_NAME := omni_RMX1801
-PRODUCT_BRAND := realme
+PRODUCT_BRAND := oppo
 PRODUCT_MODEL := Realme 2 Pro
-PRODUCT_MANUFACTURER := Realme
-
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.secure=1 \
-    ro.adb.secure=0 \
-    ro.allow.mock.location=0 \
-    ro.treble.enabled=true
+PRODUCT_MANUFACTURER := Oppo
