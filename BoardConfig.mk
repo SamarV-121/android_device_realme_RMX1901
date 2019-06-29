@@ -23,3 +23,5 @@ TARGET_OTA_ASSERT_DEVICE := RMX1901, RMX1901CN
 # Kernel
 TARGET_PREBUILT_KERNEL := device/realme/RMX1901/prebuilt/Image.gz-dtb
 
+# HIDL
+DEVICE_FRAMEWORK_MANIFEST_FILE := device/realme/RMX1901/framework_manifest.xml

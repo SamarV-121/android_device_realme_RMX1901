@@ -19,3 +19,8 @@ $(call inherit-product, device/realme/sdm710-common/sdm710.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
+# Camera
+PRODUCT_PACKAGES += \
+    vendor.lineage.camera.motor@1.0-service.realme_sdm710
+
