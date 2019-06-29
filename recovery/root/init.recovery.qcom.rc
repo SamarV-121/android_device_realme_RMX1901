@@ -18,7 +18,16 @@ on init
     symlink /vendor/manifest.xml /system/manifest.xml
 
     start hwservicemanager
-    setprop crypto.ready 1
+
+    # Only needed when we don't include all required blobs for crypto
+    start prepdecrypt
+
+service prepdecrypt /init.prepdecrypt.sh
+    oneshot
+    user root
+    group root
+    disabled
+    seclabel u:r:recovery:s0
 
 # Separate copy needed to use /sbin/linker64 instead of /system/bin/linker64
 service sbinqseecomd /sbin/qseecomd
