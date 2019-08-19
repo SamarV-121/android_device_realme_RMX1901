@@ -50,7 +50,7 @@ BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0xA900
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
-TARGET_PREBUILT_KERNEL := device/oppo/RMX1851/prebuilt/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/realme/RMX1901/prebuilt/Image.gz-dtb
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
