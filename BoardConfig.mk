@@ -72,7 +72,6 @@ TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_MAX_BRIGHTNESS := 4095
 TW_DEFAULT_BRIGHTNESS := 3095
 TW_EXCLUDE_TWRPAPP := true
-TW_SCREEN_BLANK_ON_BOOT := true
 TW_HAS_EDL_MODE := true
 TW_USE_TOOLBOX := true
 # TW_INCLUDE_CRYPTO := true
