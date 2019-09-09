@@ -17,6 +17,9 @@
 # Inherit from realmeme sdm710-common
 -include device/realme/sdm710-common/BoardConfigCommon.mk
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := RMX1901, RMX1901CN
+
 # Kernel
 TARGET_PREBUILT_KERNEL := device/realme/RMX1901/prebuilt/Image.gz-dtb
 
