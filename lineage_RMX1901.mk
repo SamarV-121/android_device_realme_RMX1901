@@ -21,8 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common LOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from sdm710-common
-$(call inherit-product, device/realme/sdm710-common/sdm710.mk)
+$(call inherit-product, device/realme/RMX1901/device.mk)
 
 PRODUCT_NAME := lineage_RMX1901
 PRODUCT_DEVICE := RMX1901
