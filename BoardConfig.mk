@@ -25,3 +25,6 @@ TARGET_PREBUILT_KERNEL := device/realme/RMX1901/prebuilt/Image.gz-dtb
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := device/realme/RMX1901/framework_manifest.xml
+
+# Partitions
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 5213519872
